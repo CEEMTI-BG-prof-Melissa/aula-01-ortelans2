@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title> </title>
+	</head>
+	<body>
+		<h1> Lista Ordenada <h1>
+		<ol class="1">
+		<li> Gabriel <li>
+		<li> Ortelan <li>
+		</ol>
+
+		<ul class="2">
+		<li>Gabriel<li>
+		<li>Ortelan<li>
+		</ul>
+
+		<a></a>
+		<img>
+		
+		<input type="text">
+		<input type="email">
+		<input type="number">
+		<input type="password">
+		
+	</body>
+</html>
