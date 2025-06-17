@@ -1,0 +1,44 @@
+/* LINKS */
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: orange;
+}
+
+
+a:visited {
+  color: purple;
+}
+
+
+a:focus {
+  outline: none;
+  border: 2px solid red;
+  padding: 2px;
+}
+
+/* LISTAS */
+
+ul li:first-child {
+  font-weight: bold;
+}
+
+
+ul li:last-child {
+  color: green;
+}
+
+
+ul li:nth-child(odd) {
+  background-color: #add8e6; 
+}
+
+
+ul li:nth-child(even) {
+  background-color: #e6ccff; 
+}
