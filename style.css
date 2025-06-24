@@ -42,3 +42,42 @@ ul li:nth-child(odd) {
 ul li:nth-child(even) {
   background-color: #e6ccff; 
 }
+
+
+/* TÍTULOS */
+:is(h1, h2, h3) {
+  color: darkblue;
+}
+
+/* LISTA - todos menos o primeiro */
+ul li:not(:first-child) {
+  font-style: italic;
+}
+
+/* CAMPOS OBRIGATÓRIOS */
+input[required],
+textarea[required] {
+  border: 2px solid orange;
+}
+
+/* DESTAQUE CAMPOS ATIVOS */
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 5px rgba(0, 128, 255, 0.7);
+}
+
+/* VERIFICAÇÃO DE EMAIL */
+input[type="email"]:valid {
+  border-color: green;
+}
+
+input[type="email"]:invalid {
+  border-color: red;
+}
+
+/* TEXTO COM CHECKBOX MARCADO */
+input[type="checkbox"]:checked + label,
+input[type="checkbox"]:checked ~ * {
+  color: darkgreen;
+}
+
