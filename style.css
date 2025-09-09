@@ -4,12 +4,12 @@ body {
 }
 
 
-p:first-of-type::first-letter {
+p::first-letter {
     color: blue;
 }
 
 
-p.importante::first-line {
+p.importante:first-line {
     background-color: yellow;
 }
 
@@ -71,4 +71,5 @@ body p:first-letter{
 input::placeholder {
     background-color: lightgray;
     color: purple;
+
 }
