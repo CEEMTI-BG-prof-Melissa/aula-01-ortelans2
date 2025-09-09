@@ -1,83 +1,74 @@
-/* LINKS */
-
-a {
-  color: blue;
-  text-decoration: none;
+ 
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 
-a:hover {
-  color: orange;
+p:first-of-type::first-letter {
+    color: blue;
 }
 
 
-a:visited {
-  color: purple;
+p.importante::first-line {
+    background-color: yellow;
 }
 
 
-a:focus {
-  outline: none;
-  border: 2px solid red;
-  padding: 2px;
-}
-
-/* LISTAS */
-
-ul li:first-child {
-  font-weight: bold;
+h1::before {
+    content: "INICIO >>> "; 
+    color: red;
 }
 
 
-ul li:last-child {
-  color: green;
+p.destaque::after {
+    content: " <<< FIM";
+    color: green;
 }
 
 
-ul li:nth-child(odd) {
-  background-color: #add8e6; 
+ul li::marker {
+    color: orange;
+    font-size: 20px; 
+}
+
+::selection {
+    background-color: gray;
+    color: white;
+}
+
+input::placeholder {
+    color: purple;
+}
+
+p::before {
+    content: "Nota: ";
+    color: blue;
+    font-weight: bold;
+}
+
+p.destaque::first-line {
+    background-color: pink;
 }
 
 
-ul li:nth-child(even) {
-  background-color: #e6ccff; 
+h1::selection {
+    background-color: black;
+    color: white;
 }
 
 
-/* TÍTULOS */
-:is(h1, h2, h3) {
-  color: darkblue;
+p::first-letter {
+    color: red;
+    font-size: 24px; 
 }
 
-/* LISTA - todos menos o primeiro */
-ul li:not(:first-child) {
-  font-style: italic;
+
+body p:first-letter{
+    color: blue;
+    font-size: 24px;
 }
 
-/* CAMPOS OBRIGATÓRIOS */
-input[required],
-textarea[required] {
-  border: 2px solid orange;
+input::placeholder {
+    background-color: lightgray;
+    color: purple;
 }
-
-/* DESTAQUE CAMPOS ATIVOS */
-input:focus,
-textarea:focus {
-  box-shadow: 0 0 5px rgba(0, 128, 255, 0.7);
-}
-
-/* VERIFICAÇÃO DE EMAIL */
-input[type="email"]:valid {
-  border-color: green;
-}
-
-input[type="email"]:invalid {
-  border-color: red;
-}
-
-/* TEXTO COM CHECKBOX MARCADO */
-input[type="checkbox"]:checked,
-input[type="checkbox"]:checked{
-  color: darkgreen;
-}
-
