@@ -1,0 +1,88 @@
+.borda{
+    border: 10px dashed black;
+}
+
+div{
+    padding: 50px;
+    margin: 10px;
+}
+
+#N1 {
+   background-color: aliceblue;
+   
+}
+
+#N2 {
+    background-image: url(lul.jpg);
+    background-repeat: repeat;
+    
+}
+
+#N3 {
+    background-image: url(lul.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#N4 {
+    background-image: url(lul.jpg);
+    background-size: cover;
+    
+}
+
+#N5 {
+    background-image: url(lul.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#N6 {
+    background-image: url(lul.jpg);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    
+
+}
+
+#N7 {
+    background-image: url(lul.jpg);
+    background-origin: border-box; 
+    background-repeat: no-repeat;
+   
+}
+#N8 {
+    background-image: url(lul.jpg);
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    
+}
+
+#N9 {
+    background-image: url(lul.jpg);
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    
+}
+
+#N10 {
+    background-image: url(lul.jpg);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    
+    
+}
+
+#N11 {
+    background-image: url(lul.jpg);
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    
+    
+}
+
+#N12{
+    background:url(lul.jpg) no-repeat cover fixed;
+}
