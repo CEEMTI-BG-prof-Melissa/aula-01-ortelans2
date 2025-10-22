@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 24px;
+}
+
+#paragrafo1 {
+    font-style: oblique;
+}
+
+#paragrafo2 {
+    font-weight: bold;
+}
+
+
+#paragrafo3 {
+    font-family: "Brush Script MT", cursive; 
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+#paragrafo4 {
+    font-size: 20px;
+    font-family: Papyrus, fantasy; 
+}
+
+#paragrafo5 {
+    font: oblique bolder 16px "Verdana", sans-serif;
+}
+
+div p {
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+    color: gray;
+}
